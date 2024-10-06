@@ -5,7 +5,10 @@ import AppBar from "./Components/AppBar/AppBar";
 import Home from "./Components/Portfolio/Home";
 import Services from "./Components/Services/Services";
 import Resume from "./Components/Resume/Resume";
-import ExperienceSec from "./Components/Resume/SideSec/ExperienceSec/ExperienceSec";
+import MainExperience from "./Components/Resume/ContentBar/MainExperience/MainExperience";
+import MainEducation from "./Components/Resume/ContentBar/MainEducation/MainEducation";
+import MainSkills from "./Components/Resume/ContentBar/MainSkills/MainSkills";
+import MainAbout from "./Components/Resume/ContentBar/MainAbout/MainAbout";
 
 function App() {
   return (
@@ -16,7 +19,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/experience" element={<ExperienceSec />} />
+          <Route path="/experience" element={<MainExperience />} />
+          <Route path="/education" element={<MainEducation />} />
+          <Route path="/skills" element={<MainSkills />} />
+          <Route path="/about" element={<MainAbout />} />
         </Routes>
       </Router>
     </>

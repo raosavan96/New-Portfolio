@@ -1,9 +1,9 @@
 import React from "react";
-import ResumeBtnMain from "./ResumeBtns/ResumeBtnMain";
-import LeftSideHed from "./LeftSideHed/LeftSideHed";
-import Experience from "./ContentBar/MainExperience/Experience";
+import ResumeBtnMain from "../../ResumeBtns/ResumeBtnMain";
+import LeftSideHed from "../../LeftSideHed/LeftSideHed";
+import Experience from "./Experience";
 
-function Resume() {
+function MainExperience() {
   return (
     <div className="container">
       <div className="grid grid-cols-10 gap-3 mt-5">
@@ -32,4 +32,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default MainExperience;
