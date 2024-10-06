@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import SkillBox from "./SkillBox/SkillBox";
 
 function Skills() {
   return (
-    <div>Skills</div>
-  )
+    <>
+      <SkillBox />
+    </>
+  );
 }
 
-export default Skills
+export default Skills;

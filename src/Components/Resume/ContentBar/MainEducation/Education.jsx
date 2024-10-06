@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import EducationBox from "./EducationBox/EducationBox";
 
 function Education() {
   return (
-    <div>Education</div>
-  )
+    <>
+      <EducationBox />
+    </>
+  );
 }
 
-export default Education
+export default Education;

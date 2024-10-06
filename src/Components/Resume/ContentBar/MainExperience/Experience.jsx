@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import ExperienceBox from "./ExperienceBox/ExperienceBox";
 
 function Experience() {
   return (
-    <div>Experience</div>
-  )
+    <>
+      <ExperienceBox />
+    </>
+  );
 }
 
-export default Experience
+export default Experience;
