@@ -17,7 +17,7 @@ const navigation = [
   { name: "Resume", to: "resume", current: false },
   { name: "Work", to: "work", current: false },
   { name: "Contact", to: "contact", current: false },
-  { name: "Hire me", to: "hireme", current: true }
+  { name: "Hire me", to: "contact", current: true }
 ];
 
 function classNames(...classes) {
@@ -46,7 +46,9 @@ export default function AppBar() {
           </div>
           <div className="flex  w-full flex-1 items-center   sm:justify-between">
             <div className="flex flex-shrink-0 items-center">
-              <h1 className="text-3xl m-0 text-white">Sawan</h1>
+              <Link to="/">
+                <h1 className="text-3xl m-0 text-white">Sawan</h1>
+              </Link>
             </div>
             <div className="hidden sm:ml-6 md:block">
               <div className="flex items-center gap-4 space-x-4">
