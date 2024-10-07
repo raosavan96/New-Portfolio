@@ -8,7 +8,7 @@ function ExperienceCard({ expValue }) {
       <h3 className="text-lg mt-3 text-white">{exName}</h3>
       <div className="flex items-center mt-3">
         <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-        <p className="text-neutral-300 text-sm m-0 ms-2">{insti}</p>
+        <p className="text-neutral-600 text-sm m-0 ms-2">{insti}</p>
       </div>
     </div>
   );

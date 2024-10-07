@@ -11,6 +11,34 @@
   order: 9999;
 }
 
+.btn_ani {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: transparent;
+}
+.btn_ani::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  width: 0;
+  z-index: -1;
+  height: 100%;
+  background-color: #4ade80;
+}
+
+.btn_ani:hover::after {
+  width: 100%;
+  z-index: -1;
+  color: #000 !important;
+}
+
+.btn_ani:hover i {
+  color: #000;
+}
+
 @media screen and (max-width: 1200px) {
   .img_sec {
     width: 380px;

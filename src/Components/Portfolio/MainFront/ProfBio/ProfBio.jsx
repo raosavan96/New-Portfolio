@@ -4,7 +4,7 @@ function ProfBio({ prof }) {
   const { count, nameProf } = prof;
   return (
     <>
-      <div className="flex items-center justify-center gap-3 mt-4 text-neutral-300 text-center md:text-start">
+      <div className="flex items-center justify-center gap-3 mt-4 text-neutral-600 text-center md:text-start">
         <div>
           <h1 className="font-extrabold">{count}</h1>
         </div>

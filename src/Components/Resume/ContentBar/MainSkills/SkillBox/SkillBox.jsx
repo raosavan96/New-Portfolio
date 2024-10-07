@@ -1,6 +1,6 @@
 import React from "react";
 import SkillCard from "./SkillCard";
-
+import "boxicons";
 function SkillBox() {
   const skillBox = [
     {
@@ -16,18 +16,24 @@ function SkillBox() {
       iconUrl: "fa-brands fa-react"
     },
     {
+      iconUrl: "bx bxl-tailwind-css"
+    },
+    {
       iconUrl: "fa-brands fa-bootstrap"
     },
     {
       iconUrl: "fa-brands fa-figma"
+    },
+    {
+      iconUrl: "bi bi-images"
     }
   ];
   return (
     <>
-      <div className="mt-4">
-        <div className="grid grid-cols-4 gap-y-6">
+      <div className="mt-4 mx-auto mb-5">
+        <div className="grid sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-y-6">
           {skillBox.map((value) => (
-            <div className="col-span-2 md:col-span-2 lg:col-span-1 h-32 w-32 flex justify-center items-center  rounded-md   bg-zinc-800 ">
+            <div className=" sm:col-span-2  h-32 sm:w-52 md:col-span-1 lg:col-span-1 sm:h-52 md:h-36 md:w-36 flex justify-center items-center  rounded-md   bg-zinc-800 ">
               <SkillCard iconClass={value} />
             </div>
           ))}

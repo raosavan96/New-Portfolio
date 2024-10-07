@@ -15,7 +15,7 @@ function ServiceCard({ cardValue }) {
           </button>
         </div>
         <h2 className={`text-${btnBg} mt-3 md:text-2xl lg:text-3xl `}>{title}</h2>
-        <p className="mt-3 text-neutral-300 md:text-sm lg:text-lg">{desc}</p>
+        <p className="mt-3 text-neutral-600 md:text-sm lg:text-lg">{desc}</p>
       </div>
     </>
   );

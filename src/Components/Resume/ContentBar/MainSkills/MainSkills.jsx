@@ -17,7 +17,7 @@ function MainSkills() {
         <div className="col-span-10 md:col-span-7 px-4">
           <div>
             <h1 className="text-white lg:text-3xl">My Skills</h1>
-            <p className="text-neutral-300 text-sm mt-3">
+            <p className="text-neutral-600 text-sm mt-3">
               Lorem ipsum dolor sit amet, consectretur adipiscing elit.
               Scelerisque consequat, faucibus et, et.
             </p>

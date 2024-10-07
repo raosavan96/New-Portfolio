@@ -3,6 +3,6 @@
   padding: 0 !important;
 
   &:hover {
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid #4ade80;
   }
 }

@@ -68,12 +68,12 @@ function MainFront() {
     <>
       <div class="grid grid-cols-10 gap-4 pt-16">
         <div className="img_sec_per1 col-span-10 md:col-span-6">
-          <p className="text-neutral-300 md:text-start">Frontend Developer</p>
+          <p className="text-neutral-500 text-xl md:text-start">Frontend Developer</p>
           <h1 className="text-4xl  text-white">Hello I'm</h1>
           <h1 className="xl:text-6xl lg:text-5xl text-green-400 ">
             Sawan Kumar Yadav
           </h1>
-          <p className="text-neutral-300 text-sm max-w-96 tracking-wide mt-3">
+          <p className="text-neutral-600 text-sm max-w-96 tracking-wide mt-3">
             I excel at crafting elegant digital experinces and i am proficient
             in various programming languages and technologies.
           </p>
