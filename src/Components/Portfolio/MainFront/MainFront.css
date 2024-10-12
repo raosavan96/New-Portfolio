@@ -71,7 +71,7 @@
 }
 
 .rotate {
-  animation: rotate 4s linear infinite;
+  animation: rotate 8s linear infinite;
 }
 
 @keyframes rotate {
@@ -84,7 +84,7 @@
 }
 
 .rotate_back {
-  animation: rotateback 4s linear infinite;
+  animation: rotateback 20s linear infinite;
 }
 
 @keyframes rotateback {
@@ -92,6 +92,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(-360deg);
+    transform: rotate(360deg);
   }
 }
