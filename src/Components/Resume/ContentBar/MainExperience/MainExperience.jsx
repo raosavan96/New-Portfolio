@@ -18,8 +18,10 @@ function MainExperience() {
           <div>
             <h1 className="text-white lg:text-3xl">My Experience</h1>
             <p className="text-neutral-600 text-sm mt-3">
-              Lorem ipsum dolor sit amet, consectretur adipiscing elit.
-              Scelerisque consequat, faucibus et, et.
+              Proficient in React.js, JavaScript, HTML, CSS, and familiar with
+              tools such as Git, Photoshop, and Figma. Committed to continuous
+              learning and adapting to emerging technologies in the field of web
+              development.
             </p>
           </div>
 
