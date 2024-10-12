@@ -7,6 +7,7 @@ import mainImg from "../../images/sawan.png";
 import crBig from "../../images/cr-big.png";
 import crSmall from "../../images/cr-small.png";
 import ProfBio from "./ProfBio/ProfBio";
+import Title from "./Title/Title";
 
 function MainFront() {
   const socialIcon = [
@@ -69,7 +70,7 @@ function MainFront() {
       <div class="grid grid-cols-10 gap-4 pt-16">
         <div className="img_sec_per1 col-span-10 md:col-span-6">
           <p className="text-neutral-500 text-xl md:text-start">
-            Frontend Developer
+            <Title />
           </p>
           <h1 className="text-4xl  text-white">Hello I'm</h1>
           <h1 className="xl:text-6xl lg:text-5xl text-green-400 ">
@@ -99,13 +100,21 @@ function MainFront() {
         </div>
         <div className="img_sec_per2 col-span-10 md:col-span-4 h-auto">
           <div className="img_sec m-auto overflow-hidden rounded-full  position-relative">
-            {imgSec.map((value) => (
-              <img
-                src={value.imgUrl}
-                alt={value.altImg}
-                className="position-absolute top-0 left-0 w-full h-full"
-              />
-            ))}
+            <img
+              src={mainImg}
+              alt=""
+              className="position-absolute  top-0 left-0 w-full h-full"
+            />
+            <img
+              src={crBig}
+              alt=""
+              className="position-absolute rotate_back top-0 left-0 w-full h-full"
+            />
+            <img
+              src={crSmall}
+              alt=""
+              className="position-absolute rotate top-0 left-0 w-full h-full"
+            />
           </div>
         </div>
       </div>

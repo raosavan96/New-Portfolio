@@ -69,3 +69,29 @@
     margin: 20px 0 !important;
   }
 }
+
+.rotate {
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate_back {
+  animation: rotateback 4s linear infinite;
+}
+
+@keyframes rotateback {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
