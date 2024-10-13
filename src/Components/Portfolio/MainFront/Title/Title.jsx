@@ -62,8 +62,8 @@ function Title() {
   }, []);
 
   return (
-    <div className="text" ref={textRef}>
-      <p>
+    <div className="text w-full" ref={textRef}>
+      <p className="relative w-full">
         <span className="word ">Mern &nbsp; Stack</span>
         <span className="word ">Frontend &nbsp; Developer </span>
         <span className="word ">Web &nbsp; Designer</span>

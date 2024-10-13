@@ -9,8 +9,8 @@ function ContactForm() {
       <div>
         <h1 className="text-green-400 text-lg mb-3">Let's work together</h1>
         <p className="text-xs mb-4 text-neutral-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
-          doloremque vel veritatis qui inventore nostrum quis.
+          Coming together is a beginning. Keeping together is progress. Working
+          together is success. 
         </p>
       </div>
 

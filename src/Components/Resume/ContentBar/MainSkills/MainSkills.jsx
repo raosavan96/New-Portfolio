@@ -18,8 +18,7 @@ function MainSkills() {
           <div>
             <h1 className="text-white lg:text-3xl">My Skills</h1>
             <p className="text-neutral-600 text-sm mt-3">
-              Lorem ipsum dolor sit amet, consectretur adipiscing elit.
-              Scelerisque consequat, faucibus et, et.
+            I am a frontend developer with over one year of experience and expertise in HTML5, CSS3, Bootstrap 5, and Tailwind CSS for responsive web design. Proficient in JavaScript and React.js, I create dynamic and interactive user interfaces. Additionally, I have experience with jQuery to enhance website functionality and utilize Figma and Photoshop for UI/UX design and graphic editing. I am currently learning the MERN Stack to expand my development skills.
             </p>
           </div>
 

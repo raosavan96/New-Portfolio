@@ -6,12 +6,14 @@ function ContactDatails() {
     {
       iconClass: "fa-solid fa-phone",
       conName: "Phone",
-      manName: "9636447793"
+      manName: "9636447793",
+      url: "tel:${9636447793}"
     },
     {
       iconClass: "fa-solid fa-envelope",
       conName: "Email",
-      manName: "savanyadav377@gmail.com"
+      manName: "savanyadav377@gmail.com",
+      url: "savanyadav377@gmail.com"
     },
     {
       iconClass: "fa-solid fa-location-arrow",

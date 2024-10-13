@@ -42,3 +42,25 @@ p {
 .pomegranate {
   color: #c0392b;
 }
+ 
+
+@media screen and (max-width: 768px) {
+  .word {
+    top: 0%;
+    left: 37%;
+}
+}
+
+@media screen and (max-width: 550px) {
+  .word {
+    top: 0%;
+    left: 32%;
+}
+}
+
+@media screen and (max-width: 450px) {
+  .word {
+    top: 0%;
+    left: 23%;
+}
+}

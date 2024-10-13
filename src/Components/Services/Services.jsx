@@ -7,8 +7,7 @@ function Services() {
       id: "01",
       title: "UI/UX Design",
       desc:
-        "I create engaging and user-centered designs that enhance user satisfaction and interaction. By focusing on usability and aesthetics, I ensure that every digital experience is both functional and visually appealing." +
-        " faucibus et, et.",
+        "I specialize in UI/UX design, creating engaging, user-centered designs that enhance satisfaction and interaction. I ensure every experience is functional and visually appealing using Photoshop and Figma.",
       btnUrl: "hi",
       btnBg: "white",
       idBorder: "1px white"
@@ -17,8 +16,7 @@ function Services() {
       id: "02",
       title: "Web Design",
       desc:
-        "I build visually appealing and fully responsive websites that cater to diverse audiences. By blending creativity with functionality, I aim to create websites that leave a lasting impression and drive engagement." +
-        " faucibus et, et.",
+        "I specialize in web design for projects, utilizing HTML5, CSS3, and JavaScript. My focus is on creating engaging, user-centered designs that enhance usability and aesthetics for a satisfying user experience",
       btnUrl: "hi",
       btnBg: "white",
       idBorder: "1px white"
@@ -27,8 +25,7 @@ function Services() {
       id: "03",
       title: "Frontend Development",
       desc:
-        "With expertise in React.js, JavaScript, HTML, and CSS, I develop dynamic web applications that deliver exceptional performance. I focus on clean code and best practices to ensure maintainability and scalability." +
-        " faucibus et, et.",
+        "With expertise in React.js, JavaScript, HTML, and CSS, I develop dynamic web applications that deliver exceptional performance. I focus on clean code and best practices to ensure maintainability and scalability.",
       btnUrl: "hi",
       btnBg: "green-400",
       idBorder: "1px green"

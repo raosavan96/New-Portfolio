@@ -11,38 +11,46 @@ function CarouselSec() {
   const projectData = [
     {
       id: "01",
-      proName: "Fullstack Project",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, facere quia quis reiciendis quam nihil? Recusandae placeat obcaecati doloremque numquam quam adipisci tenetur iusto exercitationem.",
-      tech: "Html 5, Css 3, JavaScript",
-      img: dvgImg
+      proName: "DVG Soft",
+      desc: "This frontend project for 'DVG Soft' was built using HTML5, CSS3, Bootstrap 5, and JavaScript. It features a clean, responsive layout showcasing various services offered by the company.",
+      tech: "Html 5, Css 3, Bootstrap  5, JavaScript",
+      img: dvgImg,
+      url: "https://dvgsoft.com/"
     },
     {
       id: "02",
-      proName: "Fullstack Project",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, facere quia quis reiciendis quam nihil? Recusandae placeat obcaecati doloremque numquam quam adipisci tenetur iusto exercitationem.",
-      tech: "Html 5, Css 3, JavaScript",
-      img: infoImg
+      proName: "Infogear",
+      desc: "Infogear Technology is a powerful blend of technology and security solutions, which caters to the diverse needs of both private businesses and government agencies in Tanzania.",
+      tech: "Html 5, Css 3, Bootstrap  5, JavaScript",
+      img: infoImg,
+      url: "https://infogear.co.tz/"
     },
     {
       id: "03",
-      proName: "Fullstack Project",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, facere quia quis reiciendis quam nihil? Recusandae placeat obcaecati doloremque numquam quam adipisci tenetur iusto exercitationem.",
-      tech: "Html 5, Css 3, JavaScript",
-      img: wethImg
+      proName: "Weather Info",
+      desc: "This React.js project uses the OpenWeather API to provide real-time weather data for any searched city. It features dark and light mode options, displays key weather information like temperature, and is design with React js (jsx), Tailwind, and JavaScript.",
+      tech: "React Js, Tailwind , JavaScript",
+      img: wethImg,
+      url: "https://weather-info-git-master-sawan-s-projects.vercel.app/",
+      gitUrl: "https://github.com/raosavan96/WeatherInfo.git"
     },
     {
       id: "04",
-      proName: "Fullstack Project",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, facere quia quis reiciendis quam nihil? Recusandae placeat obcaecati doloremque numquam quam adipisci tenetur iusto exercitationem.",
-      tech: "Html 5, Css 3, JavaScript",
-      img: todoImg
+      proName: "My Task",
+      desc: "This project is a task management application built using React.js, JavaScript, Tailwind CSS, and CSS3. It allows users to add, edit, and delete tasks, with features to track task completion. Additionally, it includes a dark and light mode for enhanced user experience. The project showcases dynamic state management using Redux and a responsive UI styled with Tailwind.",
+      tech: "React Js, Tailwind , JavaScript",
+      img: todoImg,
+      url: "https://todo-git-main-sawan-s-projects.vercel.app/",
+      gitUrl: "https://github.com/raosavan96/Todo.git"
     },
     {
       id: "05",
-      proName: "Fullstack Project",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, facere quia quis reiciendis quam nihil? Recusandae placeat obcaecati doloremque numquam quam adipisci tenetur iusto exercitationem.",
-      tech: "Html 5, Css 3, JavaScript",
-      img: addImg
+      proName: "E-commerce ",
+      desc: "This e-commerce project is built using React.js, Redux, JavaScript, and Tailwind CSS. It features a dynamic product listing with options to add items to the cart, remove them, and create a wishlist. The site provides a smooth user experience with essential e-commerce functionalities, such as managing the shopping cart and completing purchases. Tailwind CSS ensures a modern, responsive design while Redux manages the state efficiently for seamless user interactions.",
+      tech: "React Js, Redux, Tailwind , JavaScript",
+      img: addImg,
+      url: "https://add-cart-sawan-s-projects.vercel.app/",
+      gitUrl: "https://github.com/raosavan96/AddCart.git"
     }
   ];
 
@@ -71,7 +79,7 @@ function CarouselSec() {
           />
         }
       >
-        {projectData.map((value) => (
+        {projectData.map((value, index) => (
           <Carousel.Item className="p-3 md:p-5">
             <div className=" grid grid-cols-2  ">
               <div className="col-span-2 md:col-span-1  mt-5 md:pe-5 projSec_1">
@@ -85,7 +93,7 @@ function CarouselSec() {
                 <div className="border-b-stone-700 mt-5 border-b-2" />
 
                 <div className="flex gap-3 mt-5">
-                  <UrlBtn />
+                  <UrlBtn urlValue={value} />
                 </div>
               </div>
               <div className="col-span-2 flex justify-center items-center md:col-span-1 mt-5 md:px-5 projSec_2">

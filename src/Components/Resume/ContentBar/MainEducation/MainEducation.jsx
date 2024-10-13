@@ -18,8 +18,9 @@ function MainEducation() {
           <div>
             <h1 className="text-white lg:text-3xl">My Education</h1>
             <p className="text-neutral-600 text-sm mt-3">
-              Lorem ipsum dolor sit amet, consectretur adipiscing elit.
-              Scelerisque consequat, faucibus et, et.
+              I am currently enrolled in the MERN Stack Developer course at
+              Grras Solutions Ltd 2024 and have completed a Master of Arts
+              degree from the University of Rajasthan 2022
             </p>
           </div>
 

@@ -21,7 +21,7 @@ function MainFront() {
     },
     {
       iconUrl: "fa-brands fa-whatsapp text-green-400",
-      to: ""
+      to: "https://wa.me/9636447793"
     },
     {
       iconUrl: "fa-brands fa-twitter text-green-400",
@@ -69,20 +69,21 @@ function MainFront() {
     <>
       <div class="grid grid-cols-10 gap-4 pt-16">
         <div className="img_sec_per1 col-span-10 md:col-span-6">
-          <p className="text-neutral-500 text-xl md:text-start">
+          <p className="text-neutral-500 w-full text-xl md:text-start">
             <Title />
           </p>
-          <h1 className="text-4xl  text-white">Hello I'm</h1>
+          <h1 className="text-4xl  text-white hello_im">Hello I'm</h1>
           <h1 className="xl:text-6xl lg:text-5xl text-green-400 ">
             Sawan Kumar Yadav
           </h1>
           <p className="text-neutral-600 text-sm tracking-wide mt-3">
-            A passionate Frontend Developer with 1 year of experience focused on
-            crafting elegant digital experiences. I specialize in building
-            modern, responsive, and intuitive interfaces using React.js,
-            JavaScript, and HTML/CSS. I bring design ideas to life through
-            clean, efficient code, always striving to exceed client
-            expectations.
+            I am a frontend developer with over one year of experience and
+            expertise in HTML5, CSS3, Bootstrap 5, and Tailwind CSS for
+            responsive web design. Proficient in JavaScript and React.js, I
+            create dynamic and interactive user interfaces. Additionally, I have
+            experience with jQuery to enhance website functionality and utilize
+            Figma and Photoshop for UI/UX design and graphic editing. I am
+            currently learning the MERN Stack to expand my development skills.
           </p>
 
           <div className="flex mt-5 items-center flex-col md:flex-row">
