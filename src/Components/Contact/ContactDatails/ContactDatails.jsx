@@ -7,18 +7,19 @@ function ContactDatails() {
       iconClass: "fa-solid fa-phone",
       conName: "Phone",
       manName: "9636447793",
-      url: "tel:${9636447793}"
+      url: "tel:+9636447793"
     },
     {
       iconClass: "fa-solid fa-envelope",
       conName: "Email",
       manName: "savanyadav377@gmail.com",
-      url: "mailto:${savanyadav377@gmail.com}"
+      url: "mailto:savanyadav377@gmail.com"
     },
     {
       iconClass: "fa-solid fa-location-arrow",
       conName: "Address",
-      manName: "Vill. bhojyara th. chaksu jaipur (raj) 303903"
+      manName: "Vill. bhojyara th. chaksu jaipur (raj) 303903",
+      url: "https://maps.app.goo.gl/1SoJP1HPG1TNNoDR7"
     }
   ];
   return (
