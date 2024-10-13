@@ -13,7 +13,7 @@ function ContactDatails() {
       iconClass: "fa-solid fa-envelope",
       conName: "Email",
       manName: "savanyadav377@gmail.com",
-      url: "savanyadav377@gmail.com"
+      url: "mailto:${savanyadav377@gmail.com}"
     },
     {
       iconClass: "fa-solid fa-location-arrow",
