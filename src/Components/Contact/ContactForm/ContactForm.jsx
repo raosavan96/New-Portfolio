@@ -54,7 +54,7 @@ function ContactForm() {
           >
             <option className="op_1">Web Design</option>
             <option className="op_2" value="1">
-              Ui & Ux Design
+              Ui & Ux Design 
             </option>
             <option className="op_3" value="2">
               Frontend Development
