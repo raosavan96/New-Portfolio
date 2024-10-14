@@ -23,7 +23,7 @@
 }
 
 .main_detailss {
-    margin-left: 23px;
+  margin-left: 23px;
 }
 
 @media screen and (max-width: 768px) {
@@ -33,5 +33,9 @@
   }
   .main_detailss {
     margin-left: 0px;
-}
+  }
+
+  .send_messeage {
+    margin: 0 auto;
+  }
 }

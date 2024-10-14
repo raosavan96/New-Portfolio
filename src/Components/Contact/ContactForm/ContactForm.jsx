@@ -10,13 +10,13 @@ function ContactForm() {
         <h1 className="text-green-400 text-lg mb-3">Let's work together</h1>
         <p className="text-xs mb-4 text-neutral-600">
           Coming together is a beginning. Keeping together is progress. Working
-          together is success. 
+          together is success.
         </p>
       </div>
 
       <div>
         <Form className="grid grid-cols-2 gap-4">
-          <Form.Group className="col-span-1">
+          <Form.Group className="col-span-2 md:col-span-1">
             <Form.Control
               className="form_input"
               type="text"
@@ -24,7 +24,7 @@ function ContactForm() {
             />
           </Form.Group>
 
-          <Form.Group className=" col-span-1">
+          <Form.Group className="col-span-2 md:col-span-1">
             <Form.Control
               className="form_input"
               type="text"
@@ -32,7 +32,7 @@ function ContactForm() {
             />
           </Form.Group>
 
-          <Form.Group className=" col-span-1">
+          <Form.Group className="col-span-2 md:col-span-1">
             <Form.Control
               className="form_input"
               type="email"
@@ -40,7 +40,7 @@ function ContactForm() {
             />
           </Form.Group>
 
-          <Form.Group className=" col-span-1">
+          <Form.Group className=" col-span-2 md:col-span-1">
             <Form.Control
               className="form_input"
               type="text"
@@ -49,18 +49,18 @@ function ContactForm() {
           </Form.Group>
 
           <Form.Select
-            className="col-span-2 form_input"
+            className=" col-span-2 form_input"
             aria-label="Default select example"
           >
-            <option className="op_1">Open this select menu</option>
+            <option className="op_1">Web Design</option>
             <option className="op_2" value="1">
-              One
+              Ui & Ux Design
             </option>
             <option className="op_3" value="2">
-              Two
+              Frontend Development
             </option>
             <option className="op_4" value="3">
-              Three
+              Mern Stack
             </option>
           </Form.Select>
 
