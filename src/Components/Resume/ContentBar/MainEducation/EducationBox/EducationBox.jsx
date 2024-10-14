@@ -17,7 +17,7 @@ function EducationBox() {
   return (
     <>
       <div>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-2 animate__animated animate__fadeInRight gap-3">
           {myEducation.map((value) => (
             <div className="col-span-2 lg:col-span-1  rounded-md py-4 px-4 bg-zinc-800 ">
               <ExperienceCard expValue={value} />

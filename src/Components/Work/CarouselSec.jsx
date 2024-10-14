@@ -66,7 +66,7 @@ function CarouselSec() {
         controls={true}
         prevIcon={
           <span
-            className="carousel-control-prev-icon"
+            className="carousel-control-prev-icon "
             aria-hidden="true"
             style={prevIconStyle}
           />
@@ -82,7 +82,7 @@ function CarouselSec() {
         {projectData.map((value, index) => (
           <Carousel.Item className="p-3 md:p-5">
             <div className=" grid grid-cols-2  ">
-              <div className="col-span-2 md:col-span-1  mt-5 md:pe-5 projSec_1">
+              <div className="col-span-2 animate__animated animate__fadeIn animate__delay-1s md:col-span-1  mt-5 md:pe-5 projSec_1">
                 <h1 className="text-white text-6xl proDesri">{value.id}</h1>
                 <h2 className="text-white mt-3">{value.proName}</h2>
                 <p className="text-neutral-600 mt-3 text-base md:pe-5">
@@ -92,11 +92,11 @@ function CarouselSec() {
                 <h6 className="text-green-400">{value.tech}</h6>
                 <div className="border-b-stone-700 mt-5 border-b-2" />
 
-                <div className="flex gap-3 mt-5">
+                <div className="flex gap-3 mt-5 animate__animated animate__pulse animate__delay-2s animate__infinite">
                   <UrlBtn urlValue={value} />
                 </div>
               </div>
-              <div className="col-span-2 flex justify-center items-center md:col-span-1 mt-5 md:px-5 projSec_2">
+              <div className="col-span-2 animate__animated animate__fadeInRight animate__delay-1s flex justify-center items-center md:col-span-1 mt-5 md:px-5 projSec_2">
                 <img className="project_img" src={value.img} alt="" />
               </div>
             </div>

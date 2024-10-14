@@ -5,7 +5,7 @@ import Education from "./Education";
 
 function MainEducation() {
   return (
-    <div className="container">
+    <div className="container overflow-hidden">
       <div className="grid grid-cols-10 gap-3 mt-5">
         <div className="col-span-10 md:col-span-3">
           <LeftSideHed />
@@ -15,7 +15,7 @@ function MainEducation() {
         </div>
 
         <div className="col-span-10 md:col-span-7 px-4">
-          <div>
+          <div className="animate__animated animate__fadeIn">
             <h1 className="text-white lg:text-3xl">My Education</h1>
             <p className="text-neutral-600 text-sm mt-3">
               I am currently enrolled in the MERN Stack Developer course at

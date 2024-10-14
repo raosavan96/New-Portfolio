@@ -68,7 +68,7 @@ function MainFront() {
   return (
     <>
       <div class="grid grid-cols-10 gap-4 pt-16">
-        <div className="img_sec_per1 col-span-10 md:col-span-6">
+        <div className="img_sec_per1 animate__animated   animate__fadeInLeft  col-span-10 md:col-span-6">
           <p className="text-neutral-500 w-full text-xl md:text-start">
             <Title />
           </p>
@@ -100,7 +100,7 @@ function MainFront() {
           </div>
         </div>
         <div className="img_sec_per2 col-span-10 md:col-span-4 h-auto">
-          <div className="img_sec m-auto overflow-hidden rounded-full  position-relative">
+          <div className="img_sec animate__animated  animate__bounceIn m-auto overflow-hidden rounded-full  position-relative">
             <img
               src={mainImg}
               alt=""
@@ -121,7 +121,7 @@ function MainFront() {
       </div>
       <div class="grid grid-cols-4 pt-8 ">
         {profBio.map((value) => (
-          <div className="col-span-4 md:col-span-1  sm:col-span-2">
+          <div className="col-span-4 md:col-span-1 animate__animated animate__fadeInUp  sm:col-span-2">
             <ProfBio prof={value} />
           </div>
         ))}

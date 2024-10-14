@@ -35,7 +35,7 @@ function Services() {
   return (
     <>
       <div className="container">
-        <div className="grid gap-5 grid-cols-2 mt-5 mb-5">
+        <div className="grid gap-5 animate__animated animate__fadeInUp grid-cols-2 mt-5 mb-5">
           {servicesSec.map((value) => (
             <div className="col-span-2 mt-2 md:col-span-1">
               <ServiceCard cardValue={value} />

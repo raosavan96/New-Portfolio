@@ -26,7 +26,7 @@ function classNames(...classes) {
 
 export default function AppBar() {
   return (
-    <Disclosure as="nav" className=" container mt-4">
+    <Disclosure as="nav" className=" container mt-4 animate__animated  animate__slideInDown">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-8 items-center justify-between">
           <div className="absolute inset-y-0 right-0 block items-center md:hidden">
