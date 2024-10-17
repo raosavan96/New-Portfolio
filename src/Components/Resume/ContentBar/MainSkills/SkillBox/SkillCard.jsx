@@ -5,7 +5,7 @@ function SkillCard({ iconClass }) {
   return (
     <>
       <div>
-        <i  className={`${iconUrl} text-6xl text-white`}></i>
+        <i  className={`${iconUrl} skill_icons text-6xl text-white`}></i>
       </div>
     </>
   );

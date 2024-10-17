@@ -17,7 +17,7 @@ function UrlBtn({ urlValue }) {
   return (
     <>
       {urlLink.map((value) => (
-        <Link to={value.url}>
+        <Link to={value.url} target="blanck">
           <button
             className={`h-12 w-12 ${value.classs}  rounded-full bg-neutral-600 text-white text-lx flex justify-center items-center`}
           >
