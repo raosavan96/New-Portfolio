@@ -4,6 +4,10 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
 function ContactForm() {
+  function handleForm(e) {
+    e.preventDefault();
+  }
+
   return (
     <div className="bg-zinc-800 p-4 rounded-lg ">
       <div>
@@ -15,7 +19,7 @@ function ContactForm() {
       </div>
 
       <div>
-        <Form className="grid grid-cols-2 gap-4">
+        <Form onSubmit={handleForm} className="grid grid-cols-2 gap-4">
           <Form.Group className="col-span-2 md:col-span-1">
             <Form.Control
               className="form_input"
@@ -54,7 +58,7 @@ function ContactForm() {
           >
             <option className="op_1">Web Design</option>
             <option className="op_2" value="1">
-              Ui & Ux Design 
+              Ui & Ux Design
             </option>
             <option className="op_3" value="2">
               Frontend Development

@@ -92,7 +92,7 @@ function MainFront() {
             </div>
             <div className="lg:ms-5 md:ms-4 btns_secn_social flex gap-3">
               {socialIcon.map((value) => (
-                <Link to={value.to}>
+                <Link to={value.to} target="blanck">
                   <SocialIcon icons={value} />
                 </Link>
               ))}
