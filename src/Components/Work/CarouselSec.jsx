@@ -4,6 +4,7 @@ import infoImg from "../images/infogear.png";
 import wethImg from "../images/weather.png";
 import todoImg from "../images/todo.png";
 import addImg from "../images/addcart.png";
+import raoEshop from "../images/rao_eshop.png"
 import "./CarouselCss.css";
 import UrlBtn from "./UrlBtn/UrlBtn";
 
@@ -11,6 +12,14 @@ function CarouselSec() {
   const projectData = [
     {
       id: "01",
+      proName: "Rao_e_shop",
+      desc: "A full-stack MERN e-commerce web application designed for seamless shopping and efficient admin management. Built using React.js, Redux Toolkit, Node.js, Express.js, and MongoDB Atlas, the platform supports features like user authentication, product management, role-based access, cart functionality, and product filtering. Cloudinary integration ensures smooth media handling for product images.",
+      tech: "React Js, Tailwind, Redux, Express js, JavaScript, Mongo DB, Cloudinary",
+      img: raoEshop,
+      url: "https://rao-e-shop.vercel.app/"
+    },
+    {
+      id: "02",
       proName: "DVG Soft",
       desc: "This frontend project for 'DVG Soft' was built using HTML5, CSS3, Bootstrap 5, and JavaScript. It features a clean, responsive layout showcasing various services offered by the company.",
       tech: "Html 5, Css 3, Bootstrap  5, JavaScript",
@@ -82,7 +91,7 @@ function CarouselSec() {
         {projectData.map((value, index) => (
           <Carousel.Item className="p-3 md:p-5">
             <div className=" grid grid-cols-2  ">
-              <div className="col-span-2 animate__animated animate__fadeIn animate__delay-1s md:col-span-1  mt-5 md:pe-5 projSec_1">
+              <div className="col-span-2 animate__animated animate__fadeIn  md:col-span-1  mt-5 md:pe-5 projSec_1">
                 <h1 className="text-white text-6xl proDesri">{value.id}</h1>
                 <h2 className="text-white mt-3">{value.proName}</h2>
                 <p className="text-neutral-600 mt-3 text-base md:pe-5">
@@ -96,7 +105,7 @@ function CarouselSec() {
                   <UrlBtn urlValue={value} />
                 </div>
               </div>
-              <div className="col-span-2 animate__animated animate__fadeInRight animate__delay-1s flex justify-center items-center md:col-span-1 mt-5 md:px-5 projSec_2">
+              <div className="col-span-2 animate__animated animate__fadeInRight  flex justify-center items-center md:col-span-1 mt-5 md:px-5 projSec_2">
                 <img className="project_img" src={value.img} alt="" />
               </div>
             </div>
