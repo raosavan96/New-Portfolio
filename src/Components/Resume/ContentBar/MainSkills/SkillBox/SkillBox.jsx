@@ -20,8 +20,20 @@ function SkillBox() {
       iconUrl: "fa-brands fa-react"
     },
     {
+      nameSkl: "NodeJs",
+      iconUrl: "fa-brands fa-node"
+    },
+    {
+      nameSkl: "ExpressJS",
+      iconUrl: "cib-eventbrite"
+    },
+    {  
+      nameSkl: "Mongo DB",
+      iconUrl: "cib-mongodb"
+    },
+    {
       nameSkl: "Tailwind",
-      iconUrl: "bx bxl-tailwind-css"
+      iconUrl: "bx bxl-tailwind-css"     
     },
     {
       nameSkl: "Bootstrap",
@@ -33,7 +45,7 @@ function SkillBox() {
     },
     {
       nameSkl: "Photoshop",
-      iconUrl: "bi bi-images"
+      iconUrl: "fab fa-product-hunt"
     }
   ];
   return (
@@ -43,7 +55,10 @@ function SkillBox() {
           {skillBox.map((value) => (
             <div className=" slill_icons-box sm:col-span-2 relative  h-32 sm:w-52 md:col-span-1 lg:col-span-1 sm:h-52 md:h-36 md:w-36 flex justify-center items-center  rounded-md   bg-zinc-800 ">
               <div className="absolute top-1 left-0 w-full text-center">
-                <p className="skill_names text-white" style={{ display: "none" }}>
+                <p
+                  className="skill_names text-white"
+                  style={{ display: "none" }}
+                >
                   {value.nameSkl}
                 </p>
               </div>

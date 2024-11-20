@@ -49,19 +49,12 @@ function MainFront() {
   const profBio = [
     {
       count: 1,
-      nameProf: "Years of  experience"
+      nameProf: "Over years of  experience"
     },
+
     {
-      count: 4,
-      nameProf: "Projects completed"
-    },
-    {
-      count: 4,
+      count: 8,
       nameProf: "Technologies know"
-    },
-    {
-      count: 233,
-      nameProf: "Code commits"
     }
   ];
 
