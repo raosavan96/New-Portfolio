@@ -5,6 +5,7 @@ import wethImg from "../images/weather.png";
 import todoImg from "../images/todo.png";
 import addImg from "../images/addcart.png";
 import raoEshop from "../images/rao_eshop.png";
+import portfilioIMg from "../images/portfilio.png";
 import "./CarouselCss.css";
 import UrlBtn from "./UrlBtn/UrlBtn";
 
@@ -23,7 +24,7 @@ function CarouselSec() {
       proName: "My Portfolio",
       desc: "Developed a dynamic web application using React.js, Tailwind CSS, Redux, and JavaScript. Leveraged React.js for building interactive user interfaces, Tailwind CSS for responsive and modern design, and Redux for efficient state management. The project delivers a seamless user experience with optimized performance and maintainable code structure.",
       tech: "React Js, Tailwind, Redux, JavaScript",
-      img: raoEshop,
+      img: portfilioIMg,
       url: "https://new-portfolio-xi-navy.vercel.app/",
       gitUrl: "https://github.com/raosavan96/New-Portfolio.git"
     },
@@ -98,7 +99,7 @@ function CarouselSec() {
         }
       >
         {projectData.map((value, index) => (
-          <Carousel.Item className="p-3 md:p-5"> 
+          <Carousel.Item className="p-3 md:p-5">
             <div className=" grid grid-cols-2  ">
               <div className="col-span-2 animate__animated animate__fadeIn  md:col-span-1  mt-5 md:pe-5 projSec_1">
                 <h1 className="text-white text-6xl proDesri">{value.id}</h1>
